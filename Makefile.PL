@@ -8,4 +8,7 @@ WriteMakefile(
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'ActionTaglib.pm', # retrieve abstract from module
        AUTHOR     => 'Adam Griffiths, <adam@goldcrosstechnical.co.uk>') : ()),
+        PREREQ_PM   => {
+	'Apache::AxKit::Language::XSP'	=> '0', # or a minimum workable version
+        }
 );

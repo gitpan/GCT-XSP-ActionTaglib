@@ -134,7 +134,7 @@ our @ISA = ('Apache::AxKit::Language::XSP', 'Exporter');
 # No namespace here, ActionTaglib is designed to be inherited from
 # Implementations should declare 'our $NS' with a unique URI.
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $REVISION; $REVISION = '$Revision: 1.4 $';
 our $dbug=0;
 our $dbug_tagactions=0;
